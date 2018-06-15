@@ -1,0 +1,88 @@
+﻿  RtspClient.cpp
+e:\mycode\libonvif\libonvif\include\ffmpeg\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(81): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(74): warning C4101: “bindata”: 未引用的局部变量
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(146): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(207): warning C4018: “<”: 有符号/无符号不匹配
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(209): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(213): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(222): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(226): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(241): warning C4311: “类型转换”: 从“uint8_t *”到“unsigned int”的指针截断
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(241): warning C4302: “类型转换”: 从“uint8_t *”到“unsigned int”截断
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(126): warning C4996: 'av_register_all': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(2025): note: 参见“av_register_all”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(182): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10586.0\ucrt\stdio.h(205): note: 参见“fopen”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(242): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4707): note: 参见“avcodec_decode_video2”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(251): warning C4477: “fprintf”: 格式字符串“%x”需要类型“unsigned int”的参数，但可变参数 1 拥有了类型“uint8_t *”
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(251): warning C4313: “fprintf”: 格式字符串中的“%x”与“uint8_t *”类型的参数 1 冲突
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(257): warning C4996: 'avpicture_get_size': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(5386): note: 参见“avpicture_get_size”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(259): warning C4996: 'avpicture_fill': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(5371): note: 参见“avpicture_fill”的声明
+e:\mycode\libonvif\libonvif\rtspclient\rtspclient.cpp(293): warning C4996: 'avcodec_decode_audio4': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4658): note: 参见“avcodec_decode_audio4”的声明
+  sdlplayer.cpp
+e:\mycode\libonvif\libonvif\include\ffmpeg\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(88): warning C4996: 'av_dup_packet': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4350): note: 参见“av_dup_packet”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(173): warning C4996: 'avcodec_decode_audio4': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4658): note: 参见“avcodec_decode_audio4”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(248): warning C4996: 'av_free_packet': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4379): note: 参见“av_free_packet”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(356): warning C4018: “<”: 有符号/无符号不匹配
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(358): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(362): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(376): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(404): warning C4996: 'AVStream::codec': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(877): note: 参见“AVStream::codec”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(453): warning C4996: 'AVPicture::data': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3774): note: 参见“AVPicture::data”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(454): warning C4996: 'AVPicture::data': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3774): note: 参见“AVPicture::data”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(455): warning C4996: 'AVPicture::data': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3774): note: 参见“AVPicture::data”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(457): warning C4996: 'AVPicture::linesize': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3776): note: 参见“AVPicture::linesize”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(458): warning C4996: 'AVPicture::linesize': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3776): note: 参见“AVPicture::linesize”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(459): warning C4996: 'AVPicture::linesize': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3776): note: 参见“AVPicture::linesize”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(469): warning C4996: 'AVPicture::data': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3774): note: 参见“AVPicture::data”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(471): warning C4996: 'AVPicture::linesize': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(3776): note: 参见“AVPicture::linesize”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(330): warning C4996: 'av_register_all': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavformat\avformat.h(2025): note: 参见“av_register_all”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(445): warning C4996: 'avcodec_decode_video2': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4707): note: 参见“avcodec_decode_video2”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(480): warning C4996: 'av_free_packet': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4379): note: 参见“av_free_packet”的声明
+e:\mycode\libonvif\libonvif\rtspclient\sdlplayer.cpp(491): warning C4996: 'av_free_packet': 被声明为已否决
+  e:\mycode\libonvif\libonvif\include\ffmpeg\libavcodec\avcodec.h(4379): note: 参见“av_free_packet”的声明
+  base64.cpp
+e:\mycode\libonvif\libonvif\rtspclient\soup\base64.cpp(32): warning C4838: 从“int”转换到“const char”需要收缩转换
+e:\mycode\libonvif\libonvif\rtspclient\soup\base64.cpp(32): warning C4309: “初始化”: 截断常量值
+e:\mycode\libonvif\libonvif\rtspclient\soup\base64.cpp(139): warning C4018: “<”: 有符号/无符号不匹配
+e:\mycode\libonvif\libonvif\rtspclient\soup\base64.cpp(224): warning C4018: “<”: 有符号/无符号不匹配
+  soapC.cpp
+  soapClient.cpp
+  stdsoap2.cpp
+  正在生成代码...
+  tutorial03.c
+RtspClient.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+  LINK : 已指定 /LTCG，但不需要生成代码；从链接命令行中移除 /LTCG 以提高链接器性能
+SDLmain.lib(SDL_win32_main.obj) : warning LNK4049: 已导入本地定义的符号 fprintf
+SDLmain.lib(SDL_win32_main.obj) : warning LNK4049: 已导入本地定义的符号 __iob_func
+  RtspClient.vcxproj -> E:\mycode\LibOnvif\libonvif\x64\Release\RtspClient.exe
+  RtspClient.vcxproj -> E:\mycode\LibOnvif\libonvif\x64\Release\RtspClient.pdb (Full PDB)
