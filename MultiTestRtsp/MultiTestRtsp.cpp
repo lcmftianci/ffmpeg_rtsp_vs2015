@@ -9,7 +9,7 @@
 #pragma comment(lib, "BasicUsageEnvironment.lib")
 #pragma comment(lib, "ws2_32.lib")
 
-/*opencv¿â*/
+/*opencvåº“*/
 #include <opencv2\opencv.hpp>
 #include"opencv2/face.hpp"
 #include"opencv2/face/facerec.hpp"
@@ -24,7 +24,7 @@ using namespace cv::xfeatures2d;
 using namespace cv::ml;
 using namespace face;
 
-extern "C"   /*ÕâÀï±ØĞëÒªÊ¹ÓÃC·½Ê½µ¼Èë*/
+extern "C" 
 {
 #include "libavcodec/avcodec.h"
 #include "libavdevice/avdevice.h"
@@ -35,8 +35,7 @@ extern "C"   /*ÕâÀï±ØĞëÒªÊ¹ÓÃC·½Ê½µ¼Èë*/
 #include "libswscale/swscale.h"
 #include "libavutil/pixdesc.h"
 }
-extern "C"
-{
+
 #pragma comment(lib, "avformat.lib")
 #pragma comment(lib, "avdevice.lib")
 #pragma comment(lib, "avcodec.lib")
@@ -45,7 +44,6 @@ extern "C"
 #pragma comment(lib, "swscale.lib")
 #pragma comment(lib, "swresample.lib")
 #pragma comment(lib, "postproc.lib")
-}
 
 std::string RtspGetUrl(char* code)
 {
@@ -72,7 +70,7 @@ std::string RtspGetUrl(char* code)
 		unsigned char *out = (unsigned char*)malloc(strlen(str) + 1);
 		memset(out, '\0', strlen(str) + 1);
 		unsigned long outlen = 0;
-		//¹ıÂËµô»»ĞĞ·ûºÍ¿Õ¸ñ
+		//è¿‡æ»¤æ‰æ¢è¡Œç¬¦å’Œç©ºæ ¼
 
 		int i = CBase64::DecodeBase64((const unsigned char*)str, out, strlen(str) + 1);
 		//std::cout << str << std::endl;
@@ -168,12 +166,12 @@ void open_rtsp(const char *rtsp)
 
 	//if (!faceCascade.load(faceCascadeFileName))
 	{
-		cout << "Á³Ä£ĞÍÎÄ¼ş¼ÓÔØÊ§°Ü" << endl;
+		cout << "è„¸æ¨¡å‹æ–‡ä»¶åŠ è½½å¤±è´¥" << endl;
 		//return;
 	}
 	//if (!eyesCascade.load(eyesCasecadeFileName))
 	{
-		cout << "ÈËÑÛÄ£ĞÍÎÄ¼ş¼ÓÔØÊ§°Ü" << endl;
+		cout << "äººçœ¼æ¨¡å‹æ–‡ä»¶åŠ è½½å¤±è´¥" << endl;
 		//return;
 	}
 
@@ -287,7 +285,7 @@ EXIT:
 
 int main(int argc, char* argv[])
 {
-	//Í¨¹ıurlcode»ñÈ¡rtspµØÖ·
+	//é€šè¿‡urlcodeè·å–rtspåœ°å€
 	string strUrl = RtspGetUrl("00029240000000000101#f8f5858576b74f1bb31cc1406a729986");
 	open_rtsp(strUrl.c_str());
 	return 0;
